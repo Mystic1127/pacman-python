@@ -1,5 +1,3 @@
-"""Maze representation and drawing utilities using Tkinter."""
-
 from __future__ import annotations
 
 from dataclasses import dataclass
@@ -13,7 +11,6 @@ TilePos = Tuple[int, int]
 
 @dataclass
 class PelletSet:
-    """Keeps track of pellets that can be restored between levels."""
 
     pellets: Set[TilePos]
     power_pellets: Set[TilePos]
@@ -35,7 +32,6 @@ class PelletSet:
 
 
 class Maze:
-    """Representation of the Pac-Man maze."""
 
     def __init__(self, layout: Sequence[str]) -> None:
         if not layout:
