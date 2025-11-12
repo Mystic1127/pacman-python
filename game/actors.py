@@ -1,5 +1,3 @@
-"""Character logic for Pac-Man and ghosts without pygame."""
-
 from __future__ import annotations
 
 import math
@@ -21,7 +19,6 @@ DIRECTIONS: tuple[Vector, ...] = (
 
 
 class Actor:
-    """Base class for all moving characters."""
 
     def __init__(
         self,
