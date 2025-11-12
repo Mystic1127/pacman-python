@@ -1,5 +1,3 @@
-"""Simple 2D vector math utilities used by the Pac-Man game."""
-
 from __future__ import annotations
 
 from dataclasses import dataclass
@@ -8,7 +6,6 @@ import math
 
 @dataclass
 class Vector:
-    """Immutable 2D vector with helpers for movement and collision math."""
 
     x: float
     y: float
