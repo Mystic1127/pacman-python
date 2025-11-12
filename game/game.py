@@ -1,5 +1,3 @@
-"""Main game loop and orchestration for Pac-Man using Tkinter."""
-
 from __future__ import annotations
 
 import itertools
@@ -20,7 +18,6 @@ class GameState(Enum):
 
 
 class Game:
-    """High level controller for the Pac-Man game."""
 
     def __init__(self) -> None:
         self.root = tk.Tk()
